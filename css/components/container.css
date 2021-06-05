@@ -1,5 +1,5 @@
 .container {
-  width: 700px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -9,14 +9,14 @@
   }
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
   .container {
     width: 500px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .container {
-    width: 300px;
+    width: 300px; 
   }
 }
